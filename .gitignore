@@ -1,0 +1,11 @@
+# production build
+build/
+
+# dependencies
+node_modules/
+
+# logs
+*.log
+
+# other
+.env

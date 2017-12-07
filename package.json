@@ -1,0 +1,25 @@
+{
+  "name": "ins-music-back",
+  "version": "0.0.1",
+  "private": true,
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node ./build/main.js",
+    "dev": "backpack dev",
+    "build": "backpack build",
+    "postinstall": "backpack build"
+  },
+  "dependencies": {
+    "backpack-core": "^0.4.2",
+    "body-parser": "^1.17.2",
+    "dotenv": "^4.0.0",
+    "express": "^4.15.4",
+    "formidable": "^1.1.1",
+    "lodash": "^4.17.4",
+    "mongoose": "^4.11.6",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "morgan": "^1.8.2"
+  }
+}
