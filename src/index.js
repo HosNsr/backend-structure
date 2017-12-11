@@ -10,7 +10,7 @@ import ResponseTransformer from './app/middlewares/ResponseTransformer';
 
 const app = express();
 
-// Middlewares
+// Middlewares DEVs
 if(__DEV__) {
   app.use(logger('dev'));
 }
